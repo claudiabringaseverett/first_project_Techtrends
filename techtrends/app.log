@@ -1,0 +1,35 @@
+06-09-2021 , 14:31:15 : WARNING ::   * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+06-09-2021 , 14:31:15 : INFO ::   * Running on http://192.168.0.119:3111/ (Press CTRL+C to quit)
+06-09-2021 , 14:31:18 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:18] "GET / HTTP/1.1" 200 -
+06-09-2021 , 14:31:18 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+06-09-2021 , 14:31:28 : INFO ::  Healthz status is successful
+06-09-2021 , 14:31:28 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:28] "GET /healthz HTTP/1.1" 200 -
+06-09-2021 , 14:31:35 : INFO ::  Metrics request is successful
+06-09-2021 , 14:31:35 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:35] "GET /metrics HTTP/1.1" 200 -
+06-09-2021 , 14:31:37 : INFO ::  Metrics request is successful
+06-09-2021 , 14:31:37 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:37] "GET /metrics HTTP/1.1" 200 -
+06-09-2021 , 14:31:40 : INFO ::  Metrics request is successful
+06-09-2021 , 14:31:40 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:40] "GET /metrics HTTP/1.1" 200 -
+06-09-2021 , 14:31:45 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:45] "GET / HTTP/1.1" 200 -
+06-09-2021 , 14:31:45 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+06-09-2021 , 14:31:47 : INFO ::  About Us` page retrieved!
+06-09-2021 , 14:31:47 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:47] "GET /about HTTP/1.1" 200 -
+06-09-2021 , 14:31:47 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:31:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+06-09-2021 , 14:32:24 : ERROR ::  Non-existing article accessed
+06-09-2021 , 14:32:24 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:24] "[33mGET /10 HTTP/1.1[0m" 404 -
+06-09-2021 , 14:32:24 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+06-09-2021 , 14:32:30 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:30] "[33mGET /10/1 HTTP/1.1[0m" 404 -
+06-09-2021 , 14:32:33 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:33] "GET / HTTP/1.1" 200 -
+06-09-2021 , 14:32:33 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+06-09-2021 , 14:32:35 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:35] "GET /create HTTP/1.1" 200 -
+06-09-2021 , 14:32:35 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+06-09-2021 , 14:32:52 : INFO ::  New article with title "Rainbow" created !
+06-09-2021 , 14:32:52 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:52] "[32mPOST /create HTTP/1.1[0m" 302 -
+06-09-2021 , 14:32:53 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:53] "GET / HTTP/1.1" 200 -
+06-09-2021 , 14:32:53 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+06-09-2021 , 14:32:55 : INFO ::  Article "Rainbow" retrieved !
+06-09-2021 , 14:32:55 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:55] "GET /7 HTTP/1.1" 200 -
+06-09-2021 , 14:32:55 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:32:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+06-09-2021 , 14:33:11 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:33:11] "GET / HTTP/1.1" 200 -
+06-09-2021 , 14:33:11 : INFO ::  127.0.0.1 - - [06/Sep/2021 14:33:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
