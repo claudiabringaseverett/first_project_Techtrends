@@ -1,11 +1,40 @@
 ## Docker commands used to build the application 
 # TODO: insert the docker build command
+docker build -t techtrends 
 
 ## Docker commands used to run the application
 # TODO: insert the docker run command
+docker run -d -p 7111:3111 techtrends
 
 ## Docker commands used to get the application logs
 # TODO: insert the docker logs command
+docker logs c882e05974fd
 
 ## Logs from the container running the TechTrends application
 # TODO: paste logs from the Docker container 
+$ docker logs c882e05974fd
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+06-09-2021 , 19:02:13 : INFO ::   * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+06-09-2021 , 19:02:59 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:02:59] "GET / HTTP/1.1" 200 -
+06-09-2021 , 19:03:06 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:06] "GET / HTTP/1.1" 200 -
+06-09-2021 , 19:03:09 : INFO ::  About Us` page retrieved!
+06-09-2021 , 19:03:09 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:09] "GET /about HTTP/1.1" 200 -
+06-09-2021 , 19:03:11 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:11] "GET / HTTP/1.1" 200 -
+06-09-2021 , 19:03:13 : INFO ::  Article "2020 CNCF Annual Report" retrieved !
+06-09-2021 , 19:03:13 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:13] "GET /1 HTTP/1.1" 200 -
+06-09-2021 , 19:03:15 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:15] "GET /create HTTP/1.1" 200 -
+06-09-2021 , 19:03:25 : INFO ::  New article with title "Jenkins" created !
+06-09-2021 , 19:03:25 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:25] "POST /create HTTP/1.1" 302 -
+06-09-2021 , 19:03:25 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:25] "GET / HTTP/1.1" 200 -
+06-09-2021 , 19:03:27 : INFO ::  Article "Jenkins" retrieved !
+06-09-2021 , 19:03:27 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:27] "GET /7 HTTP/1.1" 200 -
+06-09-2021 , 19:03:30 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:30] "GET /7/1 HTTP/1.1" 404 -
+06-09-2021 , 19:03:34 : ERROR ::  Non-existing article accessed
+06-09-2021 , 19:03:34 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:34] "GET /10 HTTP/1.1" 404 -
+06-09-2021 , 19:03:38 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:38] "GET / HTTP/1.1" 200 -
+06-09-2021 , 19:03:40 : INFO ::  Article "CNCF Cloud Native Interactive Landscape" retrieved !
+06-09-2021 , 19:03:40 : INFO ::  172.17.0.1 - - [06/Sep/2021 19:03:40] "GET /4 HTTP/1.1" 200 -

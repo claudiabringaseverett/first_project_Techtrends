@@ -114,7 +114,7 @@ def metrics():
 
 # start the application on port 3111
 if __name__ == "__main__":
-    logger = logging.getLogger(__name__)
+    logger = logging.getLogger(__name__) 
     stdout_handler = logging.StreamHandler(sys.stdout)
     stdout_handler.setLevel(logging.DEBUG)
     stderr_handler = logging.StreamHandler(sys.stderr)
@@ -122,5 +122,5 @@ if __name__ == "__main__":
     handlers = [stderr_handler, stdout_handler]
     for handler in handlers:
         logger.addHandler(handler)
-    logging.basicConfig(format='%(asctime)s : %(levelname)s ::  %(message)s',datefmt='%d-%m-%Y , %H:%M:%S', filename='app.log', level=logging.DEBUG) 
+    logging.basicConfig(format='%(asctime)s : %(levelname)s ::  %(message)s',datefmt='%d-%m-%Y , %H:%M:%S', level=logging.DEBUG)
     app.run(host='0.0.0.0', port='3111')
